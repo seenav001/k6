@@ -20,6 +20,7 @@ Before you begin, ensure you have the following installed:
    
 ### Running the tests
 docker-compose up -d
+
 docker-compose run k6 run /scripts/stress-test.js
 
 ### Usage
